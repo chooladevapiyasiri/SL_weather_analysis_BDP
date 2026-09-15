@@ -55,6 +55,18 @@ Extending beyond descriptive analytics, a predictive model was built to anticipa
 - **Best model — Random Forest:** RMSE ≈ 0.48, MAE ≈ 0.37, **R² ≈ 0.84**, with a **recall of ~93%** for correctly identifying low-ET₀ cases — important since missing such events risks over-irrigation or water misallocation.
 - **Findings:** low ET₀ events in May are associated with moderate-to-high precipitation durations, reduced sunshine hours, and moderate wind speeds insufficient to offset moisture saturation — consistent with cloud-cover-dominated, pre-monsoon transition conditions. Feature importance confirmed precipitation and sunshine duration as the strongest drivers, and residual diagnostics (visualised in Apache Zeppelin) showed no significant model bias across districts.
 
+
+![image](images/1.png)
+
+![image](images/2.png)
+
+![image](images/3.png)
+
+![image](images/4.png)
+
+![image](images/5.png)
+
+
 ## Tableau Dashboard
 
 The results are presented across **three interactive dashboards**, each built on top of the processed outputs:
